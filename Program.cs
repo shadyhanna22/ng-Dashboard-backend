@@ -15,6 +15,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddEntityFrameworkNpgsql().AddDbContext<ApiContext>(opt => opt.UseNpgsql(_connectionString));
 builder.Services.AddTransient<DataSeed>();
 
+builder.Services.AddCors(opt => {
+    opt.AddPolicy("CorsPolicy",
+    c => c.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
@@ -37,5 +42,11 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "api/{controller}/{action}/{id?}");
+
+app.UseCors("CorsPolicy");
 
 app.Run();

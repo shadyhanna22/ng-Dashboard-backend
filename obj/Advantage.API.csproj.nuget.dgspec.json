@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\Advantage.API.csproj": {}
+    "d:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\Advantage.API.csproj": {}
   },
   "projects": {
-    "D:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\Advantage.API.csproj": {
+    "d:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\Advantage.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\Advantage.API.csproj",
+        "projectUniqueName": "d:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\Advantage.API.csproj",
         "projectName": "Advantage.API",
-        "projectPath": "D:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\Advantage.API.csproj",
+        "projectPath": "d:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\Advantage.API.csproj",
         "packagesPath": "C:\\Users\\shady\\.nuget\\packages\\",
-        "outputPath": "D:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\obj\\",
+        "outputPath": "d:\\_Projects\\Interview\\PortLink\\Dashboard\\Advantage.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shady\\AppData\\Roaming\\NuGet\\NuGet.Config"
