@@ -127,17 +127,5 @@ namespace Advantage.API.Controller
             return CreatedAtRoute("GetCustomer", new { id = customer.Id }, customer);
         }
 
-        // [HttpDelete("{Id}")]
-        // public IActionResult DelectCustomer(Guid id)
-        // {
-        //     var existingCustomer = Get(id);
-        //     if(existingCustomer is null)
-        //     {
-        //         return NotFound();
-        //     }
-        //     _ctx.Customers.Remove(existingCustomer);
-        //     return NoContent();
-        // }
-
     }
 }
